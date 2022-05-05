@@ -8,6 +8,7 @@ public class HandPresence : MonoBehaviour
     void Start()
     {
         List<InputDevice> devices = new List<InputDevice>();
+
         InputDevices.GetDevices(devices);
 
         foreach (var item in devices)
